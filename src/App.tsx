@@ -1,10 +1,16 @@
 import './styles/theme.css'
 import './styles/global.css'
 
+import { Header } from './components/Header'
+import Footer from './components/Footer'
+import Timer from './components/Timer'
+
 export default function App() {
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <div className='container'>
+      <Header />
+      <Timer />
+      <Footer />
+    </div>
   )
 }

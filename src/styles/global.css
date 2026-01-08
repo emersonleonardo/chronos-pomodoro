@@ -9,3 +9,7 @@ body {
   background: var(--gray-900);
   color: var(--text-default);
 }
+
+.container {
+  padding: 0 16px;
+}
