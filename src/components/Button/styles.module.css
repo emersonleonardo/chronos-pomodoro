@@ -1,0 +1,11 @@
+.button {
+  max-width: 180px;
+
+  &.default {
+    background-color: var(--primary);
+  }
+
+  &.error {
+    background-color: var(--error);
+  }
+}
