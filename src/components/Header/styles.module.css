@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 78px;
+  margin-bottom: 38px;
 }
 
 .icon {
@@ -23,8 +24,12 @@
   padding: 0;
   margin: 0;
 
-  & button {
-    padding: 8px 10px;
-    border-radius: 8px;
+  & a,
+  button {
+    display: flex;
+    background: var(--primary);
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--text-default);
   }
 }

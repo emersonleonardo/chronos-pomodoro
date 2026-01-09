@@ -1,3 +1,7 @@
+.timerContainer {
+  margin-bottom: 38px;
+}
+
 .timer {
   font-size: clamp(5rem, 25vw, 10rem);
   font-weight: bold;
